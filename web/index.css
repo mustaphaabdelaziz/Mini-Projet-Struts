@@ -1,0 +1,29 @@
+body{
+	padding-top: 70px;
+}
+
+.img-thumbnail > img{
+	max-width:100%;
+	max-height:100%;
+	height:auto;
+	object-fit: contain;
+
+}
+
+nav.navbar{
+	background-color:#607D8B !important;
+	
+}
+
+.state-box,.price-box,.delete-box{
+	border-left: 2px solid #CFD8DC;
+  
+}
+.state-box,.price-box,.name-box,.delete-box,.edit-box{
+	font-weight: 500;
+	font-size: 12px;
+        text-align: center;
+}
+.img-thumbnail{
+	display: flex;
+}

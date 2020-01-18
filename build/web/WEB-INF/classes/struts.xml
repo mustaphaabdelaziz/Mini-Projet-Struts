@@ -1,0 +1,18 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <include file="example.xml"/>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+        <action name="rsd"  class="model.InterestAction">
+            <result name="bon">bon.jsp</result>
+            <result name="mauvais">index.jsp</result>
+        </action>
+        <action name="diplayCars"  class="model.InterestAction">
+            <result name="bon">bon.jsp</result>
+            <result name="mauvais">index.jsp</result>
+        </action>
+    </package>
+</struts>
